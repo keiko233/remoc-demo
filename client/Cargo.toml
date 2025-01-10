@@ -1,0 +1,11 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ipc = { version = "0.1.0", path = "../ipc" }
+remoc = "0.14.0"
+tokio = { version = "1.43.0", features = ["full"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.19"
